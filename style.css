@@ -19,6 +19,7 @@ body {
     background-color: var(--bg);
     color: var(--text);
     line-height: 2rem;
+    user-select: none;
 }
 
 main {
@@ -126,4 +127,33 @@ section {
 .details h2 {
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: var(--bg);
+    color: var(--accent);
+    scroll-snap-align: end;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 5%;
+    }
+
+    header .logo a {
+        font-size: 1.2rem;
+    }
+
+    header ul {
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+    }
+
 }
