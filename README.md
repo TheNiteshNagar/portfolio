@@ -2,11 +2,9 @@ Nitesh — Portfolio
 
 A minimal, aesthetic portfolio site.
 
-Live: https://theniteshnagar.github.io/portfolio/
-
-Preview:
-
 ![Portfolio demo](assets/portfolio-demo.gif)
+
+Live: https://theniteshnagar.github.io/portfolio/
 
 How to view
 
