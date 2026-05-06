@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 100dvh;
+    height: 100vh;
     margin: 0;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
@@ -23,7 +23,7 @@ body {
 }
 
 main {
-    height: 100dvh;
+    height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -56,7 +56,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: calc(100%-15px);
+
     right: 15px;
     padding: 2rem 5%;
     z-index: 1;
@@ -88,7 +88,7 @@ nav a {
 }
 
 section {
-    height: 100dvh;
+    height: 100vh;
     width: 100%;
     scroll-snap-align: start;
     scroll-snap-stop: always;
